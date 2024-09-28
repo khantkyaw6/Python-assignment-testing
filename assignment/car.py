@@ -47,7 +47,7 @@ class CarSystem:
         for car in self.cars:
             if str(car.id) == car_id:
                 return car.display_info()
-        return {"Message": f"No Car found with that id: {car_id}"}
+        return {"message": f"No Car found with that id: {car_id}"}
 
     def delete_car(self, car_id):
         car = self.find_car_by_id(car_id)
