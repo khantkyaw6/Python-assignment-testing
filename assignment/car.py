@@ -89,3 +89,10 @@ print("Update Result \n", update_result)
 
 # Display the updated list
 print("Updated Car List \n", myCarSystem.display_all_cars())
+
+# Delete a car by ID
+delete_result = myCarSystem.delete_car("3")
+print("Delete Result \n", delete_result)
+
+# Display the list after deletion
+print("Car List After Deletion \n", myCarSystem.display_all_cars())
